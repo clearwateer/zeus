@@ -1,9 +1,9 @@
-package com.ciitizen.rest;
+package com.rest;
 
-import com.ciitizen.zeus.common.ConfigHelper;
-import com.ciitizen.zeus.enums.ConfigProperty;
-import com.ciitizen.zeus.enums.RuntimeProperty;
-import com.ciitizen.zeus.enums.ServiceAPIs;
+import com.zeus.common.ConfigHelper;
+import com.zeus.enums.ConfigProperty;
+import com.zeus.enums.RuntimeProperty;
+import com.zeus.enums.ServiceAPIs;
 import io.restassured.RestAssured;
 import io.restassured.config.RedirectConfig;
 import io.restassured.http.ContentType;

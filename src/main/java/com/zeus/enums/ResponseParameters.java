@@ -1,9 +1,9 @@
-package com.ciitizen.zeus.enums;
+package com.zeus.enums;
 
-public enum ServiceAPIs {
+public enum ResponseParameters {
 
-    CONSOLE_LOGIN("/login"),
-    CREATE_USER("/notifications");
+TOKEN("tkn"),
+    ID("id");
 
 
     @Override
@@ -15,13 +15,14 @@ public enum ServiceAPIs {
 
 
 
-    ServiceAPIs(String uri){
+    ResponseParameters(String uri){
         this.uri = uri;
 
     }
     public String getName() {
         return uri;
     }
+
 
 
 

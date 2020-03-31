@@ -1,4 +1,4 @@
-package com.ciitizen.zeus.enums;
+package com.zeus.enums;
 
 public enum RuntimeProperty {
 

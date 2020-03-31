@@ -1,4 +1,4 @@
-package com.ciitizen.zeus.cache;
+package com.zeus.cache;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

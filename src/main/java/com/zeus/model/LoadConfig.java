@@ -1,7 +1,7 @@
-package com.ciitizen.zeus.model;
+package com.zeus.model;
 
-import com.ciitizen.zeus.common.ConfigHelper;
-import com.ciitizen.zeus.enums.ConfigProperty;
+import com.zeus.common.ConfigHelper;
+import com.zeus.enums.ConfigProperty;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

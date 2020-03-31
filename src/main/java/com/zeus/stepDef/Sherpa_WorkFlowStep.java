@@ -1,4 +1,4 @@
-package com.ciitizen.zeus.stepDef;
+package com.zeus.stepDef;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

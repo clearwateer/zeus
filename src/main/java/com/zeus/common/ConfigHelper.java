@@ -1,7 +1,7 @@
-package com.ciitizen.zeus.common;
+package com.zeus.common;
 
-import com.ciitizen.zeus.enums.RuntimeProperty;
-import com.ciitizen.zeus.model.LoadConfig;
+import com.zeus.enums.RuntimeProperty;
+import com.zeus.model.LoadConfig;
 import org.apache.commons.configuration.ConfigurationException;
 import org.apache.commons.configuration.PropertiesConfiguration;
 import org.apache.commons.configuration.PropertiesConfigurationLayout;

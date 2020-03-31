@@ -1,4 +1,4 @@
-package com.ciitizen.zeus.dto;
+package com.zeus.dto;
 
 public class ServicesDto {
 
