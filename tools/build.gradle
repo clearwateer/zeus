@@ -1,0 +1,23 @@
+group 'Torc'
+version '1.0'
+
+apply plugin: 'java'
+
+
+repositories {
+  
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+task checkTCName(type: JavaExec) {
+    dependsOn tasks.build
+    classpath sourceSets.main.runtimeClasspath
+    main = "TestcaseNameUniqueCheck"
+    args "../feature_files"
+}
+
+
